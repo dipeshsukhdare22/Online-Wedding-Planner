@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="mainlogo.png">
+    <title>WedInShubhVivah.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!------------Awesome font cdn link---------------->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<body>
+<div class="preloader"></div>
+<div id="preloader"></div>
+
+<!-----------------Header Start--------------->
+<header class="head">
+    <a href="#" class="logo">&nbsp;WedIn <i class="fas fa-heart"></i> ShubhVivah</a>
+    <nav class="navbar">
+        <ul class="links">
+            <a href="index.html" id="first">Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Service</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="vendor.html">Vendor</a>
+            <a href="venue.html">Venue</a>
+            <a href="blogs.html">Blogs</a>
+            <a href="e-invites.html">E-invites</a>
+            <a href="contact us.html">Contact Us</a>
+            <a href="login/loginfrom.html">Login</a>
+            <span onclick="openBucket()">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            </span>
+        </ul>
+    </nav>
+    <div id="menu-bar" class="active"><i class="fas fa-bars"></i></div>
+</header>
+<!-----------------Header End--------------->
+<!------------------------Vendor Section End------------------>
+<section class="cake" id="cake">
+    <div class="title">
+        <h1><span>F</span>eatured <span>V</span>endor</h1>
+        <img src="images/img0.png" alt="">
+    </div>
+    <div class="main-txt">
+        <h3>Wedding Cake-List</h3>
+    </div>
+    <div class="cake-list">
+        <div class="cake-row">
+            <div class="rate">5.0&nbsp;<i class="fa fa-star" aria-hidden="true"></i></div>
+            <img src="images/cakeimg1.png" alt="img">
+            <h2>Vanille Patisserie </h2>
+            <p>Location: Delhi NCR</p>
+            <h3>Rs.2,000 onwards</h3>
+            <button class="btn">Add to Cart</button>
+        </div>
+        <div class="cake-row">
+            <div class="rate">4.5&nbsp;<i class="fa fa-star" aria-hidden="true"></i></div>
+            <img src="images/cakeimg2.png" alt="img">
+            <h2>Cake-in-a-jar & Cupcakes specialist </h2>
+            <p>Location: Pune</p>
+            <h3>Rs.1,850 onwards</h3>
+            <button class="btn">Add to Cart</button> </a>
+        </div>
+        <div class="cake-row">
+            <div class="rate">5.0&nbsp;<i class="fa fa-star" aria-hidden="true"></i></div>
+            <img src="images/cakeimg3.png" alt="img">
+            <h2>Dezertfox & Blackforest Cakes</h2>
+            <p>Location: Nashik </p>
+            <h3>Rs.3,000 onwards</h3>
+            <button class="btn">Add to Cart</button> </a>
+        </div>
+        <div class="cake-row">
+            <div class="rate">3.5&nbsp;<i class="fa fa-star" aria-hidden="true"></i></div>
+            <img src="images/cakeimg4.png" alt="img">
+            <h2>Cupcakes & Cakes N Creme</h2>
+            <p>Location: Mumbai</p>
+            <h3>Rs.1,500 onwards</h3>
+            <button class="btn">Add to Cart</button> </a>
+        </div>
+        <div class="cake-row">
+            <div class="rate">4.3&nbsp;<i class="fa fa-star" aria-hidden="true"></i></div>
+            <img src="images/cakeimg5.png" alt="img">
+            <h2>Lucky's Bakery & Patisserie </h2>
+            <p>Location: Nagpur</p>
+            <h3>Rs.1,900 onwards</h3>
+            <button class="btn">Add to Cart</button> </a>
+        </div>
+        <div class="cake-row">
+            <div class="rate">3.8&nbsp;<i class="fa fa-star" aria-hidden="true"></i></div>
+            <img src="images/cakeimg6.png" alt="img">
+            <h2>Basket Cupcakes & Sweets </h2>
+            <p>Location: Gujarat</p>
+            <h3>Rs.2,000 onwards</h3>
+            <button class="btn">Add to Cart</button> </a>
+        </div>
+        <div class="cake-row">
+            <div class="rate">4.2&nbsp;<i class="fa fa-star" aria-hidden="true"></i></div>
+            <img src="images/cakeimg7.png" alt="img">
+            <h2>Hazelnut praline & Strawberry Cakes</h2>
+            <p>Location: Lonavala</p>
+            <h3>Rs.1,800 onwards</h3>
+            <button class="btn">Add to Cart</button> </a>
+        </div>
+        <div class="cake-row">
+            <div class="rate">4.5&nbsp;<i class="fa fa-star" aria-hidden="true"></i></div>
+            <img src="images/cakeimg8.png" alt="img">
+            <h2>Red Velvet & Truffle Cake</h2>
+            <p>Location: Agra</p>
+            <h3>Rs.3,000 onwards</h3>
+            <button class="btn">Add to Cart</button> </a>
+        </div>
+        <div class="cake-row">
+            <div class="rate">4.4&nbsp;<i class="fa fa-star" aria-hidden="true"></i></div>
+            <img src="images/cakeimg9.png" alt="img">
+            <h2>Moist lemon & Raspberries cakes </h2>
+            <p>Location: Goa</p>
+            <h3>Rs.3,500 onwards</h3>
+            <button class="btn">Add to Cart</button> </a>
+        </div>
+    </div>
+</section>
+<!------------------------Vendor Section End------------------>
+<style>
+    .cake-list {
+     align-items: stretch;
+     justify-content: center;
+     display: flex;
+     flex-wrap: wrap;
+ }
+ .cake .cake-row {
+     max-width: 1500px;
+     background: rgb(245, 236, 245);
+     height: 40rem;
+     flex: 1 1 30rem;
+     padding: 1.2rem;
+     margin: 1.5rem;
+     border-radius: 1rem;
+     box-shadow: 0 .2rem .5rem rgb(236, 68, 90);
+ }
+ .cake-row .rate {
+     width: 6rem;
+     padding: .5rem .1rem;
+     color: #000;
+     border: none;
+     background: var(--clr6);
+     font-size: 1.6rem;
+     font-weight: 400;
+ }
+ .cake .cake-row img {
+     height: 20rem;
+     width: 100%;
+     object-fit: cover;
+ }
+ .cake-row h2 {
+     font-size: 2rem;
+     font-weight: 600;
+ }
+ .cake-row p {
+     font-size: 1.2rem;
+     font-weight: 500;
+     color: var(--clr4);
+ }
+ .cake h3 {
+     font-size: 2rem;
+     color: var(clr2);
+     background: var(--clr4);
+ }
+.cake .btn {
+     display: inline-block;
+     margin-top: 1rem;
+     border: 0.2rem solid var(--clr2);
+     letter-spacing: .1rem;
+     font-weight: 700;
+     color: #fff;
+     font-size: 1.7rem;
+     padding: .8rem 3rem;
+     cursor: pointer;
+     background: rgb(236, 68, 90);
+     border-radius: .5rem;
+ }
+
+ .cake {
+     background: linear-gradient(rgba(0 0 0 / 18%), rgba(0 0 0 / 20%)), url("images/cakeback.png");
+     background-position: center;
+     background-size: cover;
+     justify-content: center;
+ }
+</style>
+<!--------------------------------------------Footer Start--------------------------->
+<footer id="footer">
+    <div class="container">
+        <div class="f-container">
+            <h2>WedInShubhVivah - Your Personal Wedding Planner</h2><br>
+            <p>Plan your wedding with Us WedInShubhVivah is an Indian Wedding Planning Website </p>
+            <div class="social">
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-google"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-pinterest"></i>
+            </div>
+        </div>
+        <div class="f-container">
+            <h2>Our Services</h2>
+            <a href="#"><i class="fas fa-angle-right"></i>Full Wedding Planning</a>
+            <a href="#"><i class="fas fa-angle-right"></i>Partial Wedding Planning</a>
+            <a href="#"><i class="fas fa-angle-right"></i>Day-of Coordination</a>
+            <a href="#"><i class=" fas fa-angle-right "></i>Vendor Referrals</a>
+            <a href="# "><i class="fas fa-angle-right "></i>Catering Service</a>
+        </div>
+        <div class="f-container">
+            <h2>Contact Us</h2>
+            <a href="#"><i class="fas fa-phone"></i> 123-595-5555</a>
+            <a href="#"><i class="fas fa-phone"></i> 555-555-5555</a>
+            <a href="#"><i class="fas fa-envelope"></i> info@wedinshubhvivah.com</a>
+            <a href="#"><i class="fas fa-map"></i> NULL </a>
+        </div>
+    </div>
+</footer>
+<!--------------------------------------------Footer End--------------------------->
+<a href="#" class="arrow">
+    <i><img src="images/up-arrow.png" alt="" width="50px"></i>
+</a>
+<script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load",function(){
+        loader.style.display = "none";
+    })
+</script>
+<div class="copyright ">
+    <p>Copyright ©2023-2024 All Rights Reserved | Designed BY @Dipesh22</p>
+</div>
+</body>
+</html>
